@@ -1,22 +1,73 @@
-.App {
-  text-align: center;
+.mainDiv{
+    width: 50%;
+    height: auto;
+    background-color: rgb(255, 255, 255, 0.15);
+    margin-left:25%;
+    margin-top: 2%;
+    border-radius:20px;
+    transition: 0.5s;
+    padding-bottom: 2%
 }
-
-.App-logo {
-  height: 40vmin;
+.titles{
+    color:rgb(255, 255, 255,0.9);
+    font-size: 25px;
+   text-align: center;
+   padding-top:0.5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form{
+    margin-left:8%
 }
-
-.App-link {
-  color: #09d3ac;
+.inputs{
+    width:90%;
+    border: none;
+    background: none;
+    border-bottom: 1.5px solid rgb(255, 255, 255, 0.9);
+    transition: 0.1s;
+    font-size: 22px;
+    color: rgb(255, 255, 255, 0.9);
+    outline: 0;
+    font-family: 'Indie Flower', cursive;
+}
+.inputs:hover{
+    transition: 0.3s;
+    border-bottom: 1.5px solid rgb(5, 94, 5, 0.9);
+    font-size: 27px;
+}
+.btn{
+    border: none;
+    background-color:rgb(5, 94, 5, 0.7);
+    font-size: 30px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 50px;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Indie Flower', cursive;
+    margin-top:3.5%;
+    width: 50%;
+    margin-left:20%;
+    text-align: center;
+}
+.btn:hover{
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.output{
+    color: #fff;
+    font-size:22px;
+    text-align: center;
+    margin-top: -0.1%;
+}
+.weather-div{
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding-top:2.5%;
+    padding-bottom:0.1%;
+    border-radius:20px;
+    border: 0.5px solid #fff;
+    background-color: rgb(255, 255, 255,0.13);
+    transition: 0.2s;
 }
